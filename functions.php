@@ -481,3 +481,8 @@ function twentyonebrochureportfolio_scripts_loader() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'twentyonebrochureportfolio_scripts_loader' );
+
+/**
+ * import custom functions
+ */
+require_once get_template_directory() . '/inc/custom-functions.php';

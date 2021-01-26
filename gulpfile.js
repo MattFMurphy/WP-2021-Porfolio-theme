@@ -100,6 +100,12 @@ function build_custom_css() {
 			server.stream() // Browser Reload
 		)*/
 }
+/**
+ * Run above functions on cmd
+ */
+gulp.task("build_css", build_css);
+
+gulp.task("build_custom_css", build_custom_css);
 
 /**
  * Watch task: Webpack + SASS
