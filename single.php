@@ -53,6 +53,7 @@ if ( $count_posts->publish > '1' ) :
 		}
 	?>
 </div><!-- /.post-navigation -->
+Template single.php
 <?php
 endif;
 

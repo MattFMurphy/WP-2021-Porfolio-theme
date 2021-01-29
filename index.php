@@ -23,5 +23,6 @@ $page_id = get_option( 'page_for_posts' );
 		?>
 	</div><!-- /.col -->
 </div><!-- /.row -->
+Template: INDEX.php
 <?php
 get_footer();
