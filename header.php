@@ -44,7 +44,7 @@
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				
-				<div id="navbar" class="collapse navbar-collapse">
+				<div id="navbar" class="collapse navbar-collapse header__menu-items">
 					<?php
 						/** Loading WordPress Custom Menu (theme_location) **/
 						wp_nav_menu(
