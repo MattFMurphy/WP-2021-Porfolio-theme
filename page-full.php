@@ -5,7 +5,7 @@
  *
  */
 
-get_header();
+get_header('full-width');
 
 the_post();
 ?>

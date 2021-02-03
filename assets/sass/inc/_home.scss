@@ -1,10 +1,25 @@
 .jumbotron--jumbo-hero {
+  background: transparent;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 250px; //for particles
   p {
     text-align: center;
+  }
+  canvas {
+    position: absolute;
+    height: 400px !important; //for particles
+    top: 0;
+    z-index: -1;
+    background: #e9ecef;
+  }
+}
+.page-template-page-full {
+  #main {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 .stats {
