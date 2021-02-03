@@ -6,4 +6,5 @@
       console.log("callback - particles.js config loaded");
     }
   );
+  AOS.init({ once: true });
 })();
