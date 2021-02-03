@@ -16,7 +16,7 @@
 		<footer id="footer">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-12">
 						<p><?php printf( __( '&copy; %1$s %2$s. All rights reserved.', 'twentyonebrochureportfolio' ), esc_attr( date_i18n( 'Y' ) ), esc_attr( get_bloginfo( 'name', 'display' ) ) ); ?></p>
 					</div>
 
